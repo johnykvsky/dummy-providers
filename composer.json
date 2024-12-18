@@ -1,0 +1,39 @@
+{
+  "name": "johnykvsky/dummy-providers",
+  "type": "library",
+  "description": "Sample providers DummyGenerator",
+  "keywords": [
+    "dummy",
+    "generator",
+    "faker",
+    "fake data",
+    "provider",
+    "language"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johny Kvsky",
+      "homepage": "https://github.com/johnykvsky"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "johnykvsky/dummygenerator": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "DummyGenerator\\Provider\\": "src/"
+    }
+  },
+  "suggest": {
+    "ext-intl": "Required for better transliteration i.e. in Internet Extension",
+    "ext-mbstring": "Required for multibyte Unicode string functionality."
+  },
+  "config": {
+    "sort-packages": true,
+    "bin-dir": "vendor-bin"
+  }
+}
