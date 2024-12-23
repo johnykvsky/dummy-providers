@@ -1,40 +1,3 @@
-<?php
-
-declare(strict_types=1);
-
-namespace DummyGenerator\Provider\pl_PL;
-
-use DummyGenerator\Core\Text as BaseText;
-
-class Text extends BaseText
-{
-    /*
-        Ta lektura, podobnie jak tysiące innych, dostępna jest na stronie wolnelektury.pl.
-        Wersja lektury w opracowaniu merytorycznym i krytycznym (przypisy i motywy) dostępna jest na stronie http://wolnelektury.pl/katalog/lektura/dziewczynka-z-zapalkami.
-
-        Utwór opracowany został w ramach projektu Wolne Lektury przez fundację Wolne Lektury.
-
-        Wszystkie zasoby Wolnych Lektur możesz swobodnie wykorzystywać, publikować i rozpowszechniać pod warunkiem zachowania warunków licencji
-            i zgodnie z Zasadami wykorzystania Wolnych Lektur.
-        Ten utwór jest w domenie publicznej.
-        Wszystkie materiały dodatkowe (przypisy, motywy literackie) są udostępnione na Licencji Wolnej Sztuki 1.3: https://artlibre.org/licence/lal/pl/
-        Fundacja Wolne Lektury zastrzega sobie prawa do wydania krytycznego zgodnie z art. Art.99(2) Ustawy o prawach autorskich i prawach pokrewnych.
-        Wykorzystując zasoby z Wolnych Lektur, należy pamiętać o zapisach licencji oraz zasadach, które spisaliśmy w Zasadach wykorzystania
-            Wolnych Lektur: https://wolnelektury.pl/info/zasady-wykorzystania/
-        Zapoznaj się z nimi, zanim udostępnisz dalej nasze książki.
-
-        Tekst opracowany na podstawie: Hans Christian Andersen, Baśnie, tłum. Cecylia Niewiadomska, wyd. Gebethner i Wolff, Warszawa 1931
-
-        Wydawca: Fundacja Nowoczesna Polska
-
-        Publikacja zrealizowana w ramach projektu Wolne Lektury (http://wolnelektury.pl). Reprodukcja cyfrowa wykonana przez Bibliotekę Narodową
-            z egzemplarza pochodzącego ze zbiorów BN.
-
-        Opracowanie redakcyjne i przypisy: Iwona Ciećwierz, Aleksandra Sekuła.
-
-        ISBN-978-83-288-2052-4
-     */
-    protected string $baseText = <<<'EOT'
 Zimno było, śnieg padał, ściemniało się coraz bardziej, wieczór się zbliżał. Ostatni dzień roku skończy się niedługo.
 
 Zima. Przez ulice zasypane śniegiem, w zmroku idzie dziewczynka bosa, z gołą głową i coś niesie w fartuszku. Dlaczego bosa? To cała historia. Rano miała pantofle, stare i zniszczone, za duże na nią, stare pantofle matki, ale je pogubiła. Dwa powozy nadjeżdżały właśnie z stron przeciwnych, a ona chciała prędko przebiec przez ulicę; biegła co sił, słyszała straszny tętent kopyt, turkot kół, tuż za nią — ach, uciekła przecież, ale boso. Jeden pantofel tak zginął, że go nie mogła znaleźć wśród ciemności, a drugi porwał jakiś chłopiec i ze śmiechem uciekł daleko.
@@ -69,6 +32,4 @@ Nazajutrz w kąciku pod murem, ujrzano zmarznięte ciało dziewczynki. Na twarzy
 
 — Chciała się ogrzać — rzekł ktoś, pokazując na spalone zapałki.
 
-Nikt się nie domyślił, co widziała przed śmiercią w świetle tych kilku drewienek i w jakim blasku wstąpiła do nieba w objęciach zmarłej babki.
-EOT;
-}
+Nikt się nie domyślił, co widziała przed śmiercią w świetle tych kilku drewienek i w jakim blasku wstąpiła do nieba w objęciach zmarłej babki.                                          
